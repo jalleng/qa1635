@@ -1,0 +1,345 @@
+/*
+Theme Name: queenanne
+Theme URI: http://www.queenanne1635.com/
+Description: Theme designed just for Queen Anne Apartments.
+Author: Beyond Brick and Mortar
+Version: 1.0
+*/
+
+/*THIS IS STYLE SHEET FOR Queen Anne Apts, Seattle, WA*/
+#mastercontain {
+	width: 100%;
+	height: 1400px;
+	margin: 0px;
+	background-image: url(images/seattle_skyline_bkgd.jpg);
+	background-repeat: repeat;
+}
+.container {
+	height: 1200px;
+	width: 950px;
+	float: none;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	background-color: #E5E5E5;
+}
+.navbar {
+	height: 55px;
+	width: 950px;
+	margin: 0px;
+	float: left;
+}
+#masterheader{
+	
+	}
+.header {
+	float: right;
+	height: 275px;
+	width: 950px;
+	background-color: #369;
+	margin: 0px;
+}
+.main {
+	float: left;
+	height: 836px;
+	width: 686px;
+	margin: 0px;
+	padding: 3px;
+	border: 3px double #000;
+	overflow: auto;
+}
+/*.videomain {
+	float: left;
+	height: 836px;
+	width: 930px;/*was 686px on 7/9/11; changed to 915*/
+	/*margin: 0px;
+	padding: 3px;
+	border: 3px double #000;
+	overflow: auto;
+}
+*/
+p {
+	font-size: 1.1em;}
+.map {
+	float:left;
+	/*height:172px;
+	width: 275px;*/
+	background-color:#0E0;
+	margin-right: 10px;
+}
+
+.featured {
+	float:left;
+	height:200px;
+	width:275px;
+	border:double;
+	border-width:3px;
+	background-color: #808247;
+}
+	
+	
+.leftcol {
+	background-color: #FFF;
+	float: left;
+	height: 844px;/*was 848 when border was 1px solid*/
+	width: 234px;/*was 238 when border was 1px solid*/
+	margin: 0px;
+	border: 3px double #000;
+	padding-right: 5px;
+	padding-left: 5px;
+	overflow: auto; /* Since vacancy posts now show here */
+}
+.footer {
+	background-color: #FFF;
+	height: 150px;
+	width: 930px;
+	float: left;
+	margin: 0px;
+	padding: 10px;
+	background-image: url(images/olympics_footer.jpg);
+	background-repeat: repeat;
+	color: #fff;
+	clear: both;/*added this on 4/15/11 to see if it would fix the iPad display*/
+}
+.footer a{
+	color:#FFF
+	}
+
+
+/*copied & pasted from learning with gabe from here to line 83*/
+
+.nav li, .nav ul{
+	list-style: none;
+	margin:0;
+	padding:0;
+}
+
+.nav li {
+	float:right;
+	margin: 0px;
+}
+
+.nav a,
+.nav a:visited,
+.nav a:link,
+.nav a:hover,
+.nav a:active {
+	display:block;
+	padding:10px 20px 20px 15px;/*was 10px 10px 20px 10px on 8/26/11; changed it for spacing reasons*/
+	border-right:1px dotted #000;
+	font-size:1.45em;/*was 21px on 7/11/11; changed to 25px to eliminate space*/
+	text-decoration:none;
+	font-family: "Times New Roman", Times, serif;
+	font-style: normal;
+	color: #111;
+}
+.nav a:hover {
+	background-color: #369;
+	color:#003;
+}
+
+.clearfloats {
+	width: 100%;
+	overflow: hidden;
+}
+.introvid {
+	background-color: #369;
+	float: right;
+	/*height: 319px;
+	width: 425px;*/
+	padding: 0px;
+	margin-top: 0;
+	margin-right: 0;
+	margin-bottom: 0;
+	margin-left: 10px;
+}
+
+.vidprodleft {
+	float: left;
+	width: 420px;/*was 305px wide; changed to 420px on 7/9/11*/
+	/*height: 850px;*/
+	overflow: auto;
+	border: 1px dotted #039;
+	padding: 4px;
+	}
+.vidprodright {
+	float: right;
+	width: 420px;/*was 305px wide; changed to 420px on 7/9/11*/
+	/*height: 850px;*/
+	overflow: auto;
+	border: 1px dotted #00C;
+	padding: 4px;
+	}
+.webprodleft {
+	float: left;
+	width: 305px;
+	/*height: 850px;*/
+	overflow: auto;
+	border: 1px dotted #039;
+	padding: 4px;
+	}
+.webprodright {
+	float: right;
+	width: 305px;
+	/*height: 850px;*/
+	overflow: auto;
+	border: 1px dotted #00C;
+	padding: 4px;
+	}
+
+.paragraph {
+	font-family:"Times New Roman", Times, serif;
+	font-size:14px;
+	}
+	
+.padding {
+	padding: 5px 5px 5px 5px;
+}
+
+.margin {
+	margin: 3px 3px 3px 3px;
+}
+
+a {
+	color:#111;
+	}
+	
+	
+.captcha {
+	background-color: #FFC;
+	height: 575px;
+	width: 550px;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 10px;
+	font-size: 18px;
+	font-family: "Times New Roman", Times, serif;
+}
+
+body {margin:0px 0px 0px 0px;}
+
+
+img {
+	border-style: none;
+	}
+.footerleft {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	height: 150px;
+	width: 190px;
+}
+.footercenter {
+	height: 150px;
+	width: 600px;
+	float: left;
+}
+.footerright {
+	float: right;
+	height: 150px;
+	width: 140px;
+}
+
+/*copied lines 218 thru 249 from the on-page styling of vertmenu.php*/
+.glossymenu{
+list-style-type: none;
+margin: 5px 0;
+padding:0;/*padding from left side of page*/
+width: 190px;/*width of css menu*/
+/*border: 1px solid #6B6B6B;*/
+border-bottom-width: 0;
+}
+
+.glossymenu li a{
+background: white url(images/glossyback_rollover.gif) repeat-x bottom left;
+font:  18px "Times New Roman", Times, serif;/*font for menu links*/
+color: white;/*text color in menu*/
+display: block;
+width: auto;
+padding: 5px 0;
+padding-left: 2px;
+text-decoration: none;
+
+}
+
+* html .glossymenu li a{ /*IE only. Actual menu width minus left padding of A element (10px) */
+width: 190px;
+}
+
+.glossymenu li a:visited, .glossymenu li a:active{
+color: white;
+}
+
+.glossymenu li a:hover{
+background-image: url(images/glossyback_green2.gif);
+}
+.aboutustxt{
+	font-size: 19px;
+	}
+	
+/* Header rotate Javascript style code starts here */
+#logo {
+	height:275px;
+	width:950px;
+	/*float: left;*/
+	background-color: #993;
+	border: 0px none #000;
+	display: inline;
+}
+#logo div{
+	position:absolute;
+	z-index:0;
+	}
+#logo div.current{
+	z-index:2;
+	}
+#logo div.previous{
+	z-index:1;
+	}
+/* Header rotate Javascript style code ends here */
+
+/******* Stuff Dan Added **********/
+/* Container for announcements in sidebar */
+.announcements {
+	width:220px;
+	overflow: hidden;
+}
+/* Keeps date close to title */
+.announcements > div > h2, h3, h4 {
+	margin-bottom: 0px;
+}
+.entry > p {
+	margin:0px;
+}
+/* This gets used on the large1bedroom, studio, studioplus etc. image galleries */
+ul.gallery {
+	list-style-type: none;
+	padding: 0px 8px 0px;
+}
+ul.gallery > li {
+	padding: 0 2px 0;
+	float: left;
+}
+
+/* Read about clearfix here: http://www.webtoolkit.info/css-clearfix.html */
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+ 
+.clearfix {
+	display: inline-block;
+}
+ 
+html[xmlns] .clearfix {
+	display: block;
+}
+ 
+* html .clearfix {
+	height: 1%;
+}
