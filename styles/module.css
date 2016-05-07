@@ -1,0 +1,99 @@
+/** {
+	outline: 1px dotted orange;
+}*/
+* {
+	outline: 1px dotted orange;
+}
+h1 {
+	font-weight: normal;
+	text-align: center;
+	font-family: cursive;
+	font-size: 3em;
+	margin: .33em;
+	color: #492E1B;
+}
+
+.fullWidth {
+	width: 100%;
+}
+
+#topImageDiv {
+	padding-top: 20px;
+	display:block;
+	width: 100%;
+	margin: auto;
+}
+
+#name {
+	width: 82%;
+	margin: auto;
+}
+
+#logo {
+	width: 8.74%;
+}
+
+#titleString {
+	width: 10%;
+}
+
+#headImage {
+	display: block;
+	width: 70%;
+	margin: auto;
+}
+
+#navbar {
+	
+	list-style-type: none;
+	width: 80%;
+	margin: auto;
+	padding: 0;
+	/*border-top: 2px solid black;
+	border-bottom: 2px solid black;*/
+	/*height: 25px;*/
+
+}
+
+li {
+	display: inline-block;
+	width: 19%;
+	text-align: center;
+	height: 30px;
+	font-size: 1.35em;
+}
+
+header nav {
+	margin-top: 12px;
+	border-top: 2px solid #492E1B;
+	border-bottom: 2px solid #492E1B;
+	color: white;
+}
+
+#queenAnne {
+	width: 39.24%;
+    padding-left: .71%
+}
+
+#apartments {
+	width: 39.24%;
+    padding-left: 1.5%;
+}
+
+#home {
+	width: 15%;
+	padding-left: 3.65%;
+}
+
+#retail {
+	width: 15%;
+}
+
+#contact {
+	padding-left: 2.5%;
+}
+
+main {
+	width: 80%;
+	float: right;
+}
